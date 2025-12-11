@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the Number Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h2>Guess the Number Game </h2>
+        <p class="hi-score">HI-SCORE : <span class="score"></span> Attempts</p>
+
+        <form onsubmit="return false;">
+            <p><Label>Enter a Number to Guess : </Label></p>
+            <input type="text" class="guess" placeholder="Enter a Guess ..." autofocus>
+            <input type="button" value="Submit" class="sbmt btn">
+        </form>
+
+        <div class="display-msg">
+            <p class="main-msg">Guess the Number (1-100) in Minimum Attempts !!</p>
+        </div>
+
+        <div class="message">
+            <p>Previous Guesses : <span class="guessesSlot"></span></p>
+            <p>Number of Attempts : <span class="totalAttempts">0</span></p>
+
+            <div class="btns">
+                <input type="button" value="Reset" class="reset-btn btn">
+                <input type="button" value="New Game" class="new-btn btn">
+            </div>
+        </div>
+    </div>
+
+
+<script src="script.js"></script>
+</body>
+
+</html>
