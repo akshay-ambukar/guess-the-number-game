@@ -174,7 +174,7 @@ form>input {
     }
 }
 
-@media (min-width : 350px) {
+@media (max-width : 350px) {
     form {
         margin-top: 22px;
     }
