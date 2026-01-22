@@ -129,7 +129,8 @@ function reset() {
     attempt = 0;
     totalAttempts.innerHTML = attempt;
 
-    mainMsg.style.color = "rgb(45, 255, 45)";
+    // mainMsg.style.color = "rgb(45, 255, 45)";
+    mainMsg.style.color = "wheat";
     mainMsg.innerHTML = `Guess the Number in Minimum Attempts !!`;
 
     guess.value = "";
